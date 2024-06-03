@@ -1,0 +1,42 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  background-color: #8d8d8d;
+}
+
+h1 {
+  font-size: 15px;
+  background: #8d8d8d;
+}
+
+.header {
+  background-color: #8d8d8d;
+  text-align: center;
+  height: 40px; 
+  line-height: 40px; 
+  border-bottom: 2px solid #203b23;
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+  z-index: 1000; 
+  
+}
+
+main {
+  padding-top: 60px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  height: 30px; 
+  line-height: 30px;
+  border-top: 2px solid #203b23;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+  z-index: 1000;
+}
+
+
