@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    background-color: #4d6b50;
+    color: #fffbed;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-list li a {
+    color: #fffbed;
+    text-decoration: none;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-family: "IBM Plex Sans KR", sans-serif;
+    background-color: #4d6b50;
+    color: #fffbed;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
