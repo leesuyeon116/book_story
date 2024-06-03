@@ -1,32 +1,106 @@
+body {
+    margin: 0px;
+}
+
 .header {
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 30px;
-    line-height: 30px;
+    height: 40px;
+    line-height: 40px;
     font-family: "IBM Plex Sans KR", sans-serif;
     background-color: #4d6b50;
     color: #fffbed;
-    padding: 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.nav {
+    position: fixed;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fffbed;
+    color: #4c4240;
     text-align: center;
+    z-index: 2;
 }
 
-.nav-list {
-    padding: 0;
-    list-style-type: none;
+.nav a {
+    margin: 0 15px; 
+    letter-spacing: 2px;
+    text-decoration: none; 
+    color: #4c4240;
 }
 
-.nav-list li {
-    display: inline;
-    margin: 0 10px;
+.nav a:hover {
+    color: #ff9946; 
 }
 
-.nav-list li a {
-    color: #fffbed;
-    text-decoration: none;
+.section {
+    position: relative;
+    top: 70px; 
+    left: 0;
+    width: 100vw; 
+    height: calc(100vh - 70px);
+    }
+    
+.section img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.8;
 }
 
+.search-container {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    color: grey;
+    pointer-events: none;
+    padding: 0 10px;
+}
+
+
+.search-box {
+    padding: 5px 10px; 
+    width: 300px; 
+    height: 30px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: border-color 0.3s;
+    text-align: center; 
+}
+
+.search-box:focus {
+    outline: none; 
+    
+    background-color: #ffffff;
+}
 
 .footer {
     position: fixed;
@@ -38,13 +112,5 @@
     font-family: "IBM Plex Sans KR", sans-serif;
     background-color: #4d6b50;
     color: #fffbed;
-    padding: 20px;
     text-align: center;
-}
-
-.section {
-    background-image: url('main.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
 }
