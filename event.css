@@ -15,11 +15,9 @@ nav {
     color: #fffbed !important;
 }
 
-/* 햄버거 마우스 호버
 .navbar-toggler {
     color: #fffbed;
 }
-*/
 
 .card:hover {
     transform: scale(1.03);
@@ -32,6 +30,7 @@ footer {
     font-size: 14px;
 }
 
+
 .first-line {
     color: #fffbed;
     border-bottom: 1px solid #fffbed;
@@ -40,6 +39,10 @@ footer {
 .second-line a {
     color: #fffbed;
     text-decoration: none;
+}
+
+.second-line a:hover {
+    color: #ff9946 !important;
 }
 
 .flag {
