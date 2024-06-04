@@ -1,3 +1,12 @@
+nav {
+    padding: 2rem;
+    position: fixed;
+}
+
+.first-img {
+    width: 100vw;
+}
+
 .navbar.bg-body-tertiary {
     background-color: #4d6b50 !important;
 }
@@ -6,8 +15,71 @@
     color: #fffbed !important;
 }
 
-/* 햄버거 마우스호버 
+/* 햄버거 마우스 호버
 .navbar-toggler {
     color: #fffbed;
 }
 */
+
+.card:hover {
+    transform: scale(1.03);
+transition: 0.5s ease-in-out;
+}
+
+footer {
+    background-color: #4d6b50;
+    color: #fffbed;
+    font-size: 14px;
+}
+
+.first-line {
+    color: #fffbed;
+    border-bottom: 1px solid #fffbed;
+}
+
+.second-line a {
+    color: #fffbed;
+    text-decoration: none;
+}
+
+.flag {
+    color: #fffbed;
+}
+
+.mobile-footer {
+    border-top: 1px solid #fffbed;
+    color: #fffbed;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: none;
+  }
+
+@media screen and (max-width: 48rem) {
+    .second-line {
+        padding: 0 2rem;
+    }
+
+    .flag {
+      display: none;
+    }
+  
+    .first-line {
+      text-align: center;
+    }
+  
+    .mobile-footer {
+      display: block;
+    }
+
+  }
+  .col {
+    padding-bottom: 1rem;
+  }
+
+  .flag-img {
+    margin: 0 0.5rem;
+}
