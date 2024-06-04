@@ -1,0 +1,13 @@
+.navbar.bg-body-tertiary {
+    background-color: #4d6b50 !important;
+}
+
+.navbar.bg-body-tertiary .navbar-brand {
+    color: #fffbed !important;
+}
+
+/* 햄버거 마우스호버 
+.navbar-toggler {
+    color: #fffbed;
+}
+*/
