@@ -19,6 +19,11 @@ nav {
     color: #fffbed;
 }
 
+
+.event-card {
+    margin-bottom: 3rem; 
+}
+
 .card:hover {
     transform: scale(1.03);
 transition: 0.5s ease-in-out;
